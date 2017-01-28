@@ -1,0 +1,215 @@
+<!-- 1) Заменить иконку залупы в поиске по тегам на крестик;
+  	 2)  Добавить вводный знак;
+ -->
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/normalize.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
+</head>
+<body>
+<main>
+
+<!-- ********************************************************************************** -->
+	<section class="centerBlock clearfix">
+		<div class="container-places">
+			<acide class="left-content-places">
+				<form action="#" id="places_filters">
+													<!--///////////////////-->
+
+
+					<fieldset>
+						<legend>Категории</legend>
+						<input type="checkbox" name="places_type[]" id="filter-place1" value="1"><label for="filter-place1">Морской тур</label>
+						<input type="checkbox" name="places_type[]" id="filter-place2" value="2"><label for="filter-place2">Гастрономический тур</label>
+						<input type="checkbox" name="places_type[]" id="filter-place3" value="3"><label for="filter-place3">Семейный тур</label>
+						<input type="checkbox" name="places_type[]" id="filter-place4" value="4"><label for="filter-place4">Детский тур</label>
+						<input type="checkbox" name="places_type[]" id="filter-place5" value="5"><label for="filter-place5">Религиозный тур</label>
+						<input type="checkbox" name="places_type[]" id="filter-place6" value="6"><label for="filter-place6">Экскурсионный тур</label>
+						<input type="checkbox" name="places_type[]" id="filter-place7" value="7"><label for="filter-place7">Этнографический тур</label>
+						<input type="checkbox" name="places_type[]" id="filter-place8" value="8"><label for="filter-place8">Зимниый тур</label>
+						<input type="checkbox" name="places_type[]" id="filter-place9" value="9"><label for="filter-place9">Экстремальный тур</label>
+					</fieldset>
+
+
+													<!--///////////////////-->
+
+
+					<fieldset class="select-location-places">
+					<div class="icon-map">
+						<img src="images/Composite-Path.png" alt="">
+					</div>
+						<legend >Локация</legend>
+
+						<select  name="select-location" class="select-new-location">
+							<option value="Каспийск">Каспийск </option>
+							<option value="Махачкала">Махачкала </option>
+							<option value="Дербент">Дербент </option>
+							<option value="Буйнакск">Буйнакск </option>
+							<option value="Каспийск">Каспийск </option>
+						</select>
+
+					</fieldset>
+
+													<!--///////////////////-->
+
+
+
+						<fieldset class="select-date-places">
+							<legend >Дата начала</legend>
+								<input class="select-date-places-start" type="date">
+
+						</fieldset>
+
+
+													<!--///////////////////-->
+
+
+
+						<fieldset class="select-date-places">
+							<legend >Дата окончания</legend>
+								<input class="select-date-places-end" type="date">
+
+						</fieldset>
+
+													<!--///////////////////-->
+
+						<fieldset class="select-number-people-places">
+							<div class="icon-map">
+								<img src="images/Composite-Path.png" alt="">
+							</div>
+								<legend >Локация</legend>
+
+							<select  name="select-number-people" class="select-number-people">
+								<option value="1">1 человек </option>
+								<option value="2">2 человека </option>
+								<option value="3">3 человека </option>
+								<option value="4">4 человека </option>
+							</select>
+
+						</fieldset>
+
+
+													<!--///////////////////-->
+
+
+				
+				</form>
+			</acide>
+	
+			<!--****************************************************************************-->
+
+			<div class="right-content-places">
+				
+
+			<!--************************************* read  ***********************************-->
+
+
+				<div class="mode-read">
+					<div class="top-block-read">
+						<div class="left-block-read">	
+							<a href="#">
+								<img src="images/jump.png" alt="">
+								<div class="left-block-border">
+									<div class="left-block-info">
+										<h2>Прыжки со скалы</h2>
+										<p>В высокогорных сёлах Дагестана</p>
+										<img src="images/left-block-price-and-time.png" alt="">
+									</div>
+								</div>
+							</a>
+						</div>
+
+						<div class="right-block-read">
+							<a href="#">
+								<img src="images/eat-img.png" alt="">
+								<div class="right-block-border">
+									<div class="right-block-info">
+										<h2>Традиционные блюда</h2>
+										<p>Республики Дагестан</p>
+										<img src="images/left-block-price-and-time.png" alt="">
+									</div>
+								</div>
+							</a>
+						</div>
+					</div>
+
+					<div class="down-block-read">
+						<a href="#">
+								<img src="images/djum-mechet.png" alt="">
+								<div class="down-block-border">
+									<div class="down-block-info">
+										<h2>Центральная мечеть</h2>
+										<p>В г.Махачкала</p>
+										<img src="images/left-block-price-and-time.png" alt="">
+									</div>
+								</div>
+							</a>
+					</div>
+				</div>
+		
+
+
+				<!--************************************* map  ***********************************-->
+
+
+				<div class="mode-map">
+										<div class="top-block-map">
+						<div class="left-block-map">
+								<iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d752836.7245624306!2d47.282278706555395!3d42.51772831892103!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e6!4m5!1s0x4049b84ddc42f447%3A0x4c38c29a3977f710!2z0JTQtdGA0LHQtdC90YIsINCg0LXRgdC_LiDQlNCw0LPQtdGB0YLQsNC9!3m2!1d42.0674251!2d48.289090699999996!4m5!1s0x404d43d957c36b2f%3A0xa4f5323eaf6c112d!2z0JzQsNGF0LDRh9C60LDQu9CwLCDQoNC10YHQvy4g0JTQsNCz0LXRgdGC0LDQvQ!3m2!1d42.9666308!2d47.5126285!5e0!3m2!1sru!2sru!4v1485618539672" width="654" height="260" frameborder="0" style="border:0" allowfullscreen></iframe>
+								<div class="route-places">
+									<div class="text-map-places">
+										<div class="city-start">
+											Махачкала
+										</div>
+										<div class="time-road">2 ч 8 мин, 130 км</div>
+										<div class="city-end">Дербент</div>
+									</div>
+									<div class="road-img">
+										<img src="images/car.png" alt="">
+									</div>
+								</div>
+							
+						</div>
+
+						<div class="right-block-map">
+							<a href="#">
+								<img src="images/eat-img.png" alt="">
+								<div class="right-block-border">
+									<div class="right-block-info">
+										<h2>Традиционные блюда</h2>
+										<p>Республики Дагестан</p>
+										<img src="images/left-block-price-and-time.png" alt="">
+									</div>
+								</div>
+							</a>
+						</div>
+					</div>
+
+					<div class="down-block-map">
+						<a href="#">
+								<img src="images/djum-mechet.png" alt="">
+								<div class="down-block-border">
+									<div class="down-block-info">
+										<h2>Центральная мечеть</h2>
+										<p>В г.Махачкала</p>
+										<img src="images/left-block-price-and-time.png" alt="">
+									</div>
+								</div>
+							</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+	</section>
+</main>
+
+	
+		
+</body>
+</html>
