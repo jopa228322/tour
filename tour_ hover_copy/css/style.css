@@ -386,7 +386,7 @@ main {
 }
 /**************************************map**********************************************************/
 .mode-map{
-	display: none;
+	margin-bottom: 26px;
 }
 .top-block-map{
 	display: flex;
@@ -395,7 +395,7 @@ main {
 
 }
 .left-block-map{
-	width: 70%;
+	width: 100%;
 	text-align: center;
 	height: 314px;
 
